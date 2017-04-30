@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <Authors>Ateo Spettinato, Aleksandar Toplek</Authors>
+    <Company />
+    <Description />
+    <Version>1.0.9</Version>
+    <PackageProjectUrl>https://github.com/AleksandarDev/SunSetRiseLib</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/AleksandarDev/SunSetRiseLib</RepositoryUrl>
+    <PackageReleaseNotes>- Initial .NET Standard version</PackageReleaseNotes>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\SunSetRiseLib\Util.cs" Link="Util.cs" />
+  </ItemGroup>
+
+</Project>
